@@ -1,0 +1,6 @@
+para ejecutar el programa deben de estar instladas las siguientes librerias:
+
+requests
+json
+bs4
+urllib
