@@ -30,7 +30,7 @@ class Informacion():
         response = s.post(AUTH_URL, data=params)
         try:
             token = response.history[-1].cookies["expa_token"]
-            print(token)
+
             return token, True
         except KeyError:
             cookies = response.history[-1].cookies
